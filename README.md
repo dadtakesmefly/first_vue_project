@@ -1,6 +1,26 @@
 # my-first-vue-demo
 
 > vue 单页面应用
+
+ vue全局安装
+
+ ```
+ npm install -g  vue
+ ```
+ vue—cli脚手架全局安装
+
+ ```
+ npm install -g vue-cli
+ ```
+ 初始化vue
+ 
+![img](https://img-blog.csdn.net/20171219140721958)
+
+
+
+
+
+
 ### 单页面渲染所有组件，通过路由去控制显示与隐藏
 ### 组件之间跳转，template里面通过
 
