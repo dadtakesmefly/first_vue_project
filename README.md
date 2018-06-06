@@ -36,7 +36,7 @@
 
       Vue.use(VueRouter)
 
-    //配置路由
+      //配置路由
        export default new VueRouter({
        // mode:"history", 将 # 变成 /
        routes: [
