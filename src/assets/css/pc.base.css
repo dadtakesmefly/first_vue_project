@@ -1,0 +1,130 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+i, b, s, em, strong {
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none;
+  color: #A7ABB4; }
+
+a:hover {
+  text-decoration: none;
+  outline: none;
+  color: #CB0009; }
+
+ul, ol {
+  list-style: none; }
+
+a, button, input, textarea, select {
+  resize: none;
+  outline: none;
+  outline-style: none;
+  border: none; }
+
+textarea {
+  /*resize:vertical;*/ }
+
+img {
+  border: 0; }
+
+body {
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased; }
+
+.clearfix::before, .clearfix::after {
+  content: ' ';
+  clear: both;
+  display: block;
+  height: 0;
+  line-height: 0; }
+
+.container {
+  max-width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.clearfix {
+  zoom: 1; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+html, body, #app {
+  height: 100%;
+  overflow: hidden; }
+
+#app {
+  width: 100%;
+  background-color: #f4f5f5; }
+
+.w100 {
+  width: 100%; }
+
+.h100 {
+  height: 100%; }
+
+.h50 {
+  height: 50%; }
+
+/*临时调试样式*/
+.el-row {
+  margin-bottom: 20px; }
+  .el-row:last-child {
+    margin-bottom: 0; }
+
+.el-col {
+  border-radius: 4px; }
+
+.bg-purple-dark {
+  background: #99a9bf; }
+
+.bg-purple {
+  background: #d3dce6; }
+
+.bg-purple-light {
+  background: #e5e9f2; }
+
+.grid-content {
+  border-radius: 4px;
+  text-align: center;
+  position: relative; }
+
+.row-bg {
+  padding: 10px 0;
+  background-color: #f9fafc; }
+
+.bg-fff {
+  background-color: #fff; }
+
+.mt20 {
+  margin-top: 20px; }
+
+/*# sourceMappingURL=pc.base.css.map */

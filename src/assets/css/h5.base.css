@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/*地址需组件内再次覆写*/
+html, body, ul, ol, li, dl, dd, dt, p, h1, h2, h3, form, img {
+  margin: 0;
+  padding: 0; }
+
+*, html {
+  -webkit-tap-highlight-color: transparent;
+  /*清除高亮*/
+  -webkit-box-sizing: border-box;
+  /*兼容webkit 浏览器内核的厂商，这个情况一般是老的移动端浏览器*/
+  -webkit-overflow-scrolling: touch; }
+
+body {
+  font-family: Microsoft YaHei, sans-serif, Arial;
+  /*max-width: 14.4rem;*/
+  margin: 0 auto;
+  font-size: 0.32rem; }
+
+html, body, #app {
+  width: 100%; }
+
+input, button, textarea {
+  border: none;
+  padding: 0;
+  margin: 0;
+  resize: none;
+  outline-style: none;
+  -webkit-appearance: none;
+  /* 组件的默认的样式为空*/
+  font-family: Microsoft YaHei, sans-serif, Arial; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  color: #333;
+  text-decoration: none; }
+
+i, em, b {
+  font-style: normal;
+  font-weight: normal; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+/*清除浮动*/
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1;
+  /*IE/7/6*/ }
+
+h1, h2, h3, h4, h5, h6 {
+  text-decoration: none;
+  font-weight: normal; }
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+  display: none; }
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+  display: none; }
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+  display: none; }
+
+/*# sourceMappingURL=h5.base.css.map */
